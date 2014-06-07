@@ -15,16 +15,23 @@
          <li><img src="images/icon.jpg" id="icon"/></li>
         </ul>
   		<form action="http://www.example.com/login.php" id="formRegister" id="formRegister">
-        
-      <p>Username:
-          <input type="text" name="username" size="30" maxlength="60" />
+      <p id="lastName">Last Name:
+          <input type="text" required name="username" size="30" maxlength="60" />
         </p>
-        <p>Password:
-          <input type="password" name="password" size="30" maxlength="60" />
+         <p id="firstName">First Name:
+          <input type="text" required name="username" size="30" maxlength="60" />
+        </p>
+         <p id="email">Email:
+          <input type="text" required name="username" size="30" maxlength="60" />
+        <p id="password">Password:
+          <input type="password"  required name="password" size="30" maxlength="60" />
+        </p>
+         <p> Confirm Password:<input type="password"  required name="password" size="30" maxlength="60" />
         </p>
           <input type="submit" name="subscribe"
-          value="Register" class="register"/>
-  	</form>
-  </div>
-</body>
+          value="Register" class="register"/> 
+        </p>
+  	</form><!-- End the form-->
+  </div><!-- End the page-->
+</body><!-- End the body-->
 </html>

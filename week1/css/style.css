@@ -32,6 +32,7 @@ body {
 .ulHome p{
 	color:#fff;
 }
+
 input:hover{
 	border: solid #66cc33;
 }
@@ -188,12 +189,29 @@ h5{
 		width: 960px;
 		background-color: #cccc99;
 		margin: 20px 20px ;
+		
 	}
 
 #formRegister{
+	position: relative;
+	width:960px;
 	background-color: #cccc99;
+	margin: 20px 20px;
 	
 }
+	#formRegister p{
+	margin-left: 60px;
+	}
+	#lastName, #firstName{
+		margin-right: 70px;
+	}
+	#email{
+		margin-right: 130px;
+	}
+	#password{
+        margin-right: 90px;
+	}
+
 #icon{
 margin:5px 5px;
 border-radius: 60px;
