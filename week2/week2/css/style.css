@@ -71,7 +71,6 @@ li{
 form{
 	position: relative;
 	margin: 50px 0px;
-	background-color: #66cc33;
 	text-align: center;
 
 	
@@ -82,7 +81,7 @@ p{
 	font-family: "palatino" "regular", serif;
 }
 h1{
-	margin: 20px 300px;
+	margin: 30px 330px;
 
 	font-family:"telugu mn" "regular",serif;
 	font-size:36pt;
@@ -141,8 +140,8 @@ background-color: #000033 solid;
    }
 .register{
 	position: relative;
-	margin-left: 20px;
-	width:230px;
+	margin-left: 5px;
+	width:210px;
 	margin-bottom: 20px;
     border: #EFEFEF solid;
 background: #dbdbdb; /* Old browsers */
@@ -187,30 +186,21 @@ h5{
 #pageRegister{
 		position:relative;
 		width: 960px;
-		background-color: #cccc99;
 		margin: 20px 20px ;
-		
+		border: solid 2px #fff;
 	}
 
 #formRegister{
 	position: relative;
 	width:960px;
-	background-color: #cccc99;
 	margin: 20px 20px;
+	
 	
 }
 	#formRegister p{
-	margin-left: 60px;
+	margin-left: 0px;
 	}
-	#lastName, #firstName{
-		margin-right: 70px;
-	}
-	#email{
-		margin-right: 130px;
-	}
-	#password{
-        margin-right: 90px;
-	}
+	
 
 #icon{
 margin:5px 5px;
@@ -220,25 +210,25 @@ border-radius: 60px;
     -o-border-radius: 60px;
 }
 /* adm.html */
-#pageAdm{
+#pageAdm, #pageProjects{
 	position: relative;
 	width:960px;
 	margin:20px 20px;
 }
-#headerAdm{
+#headerAdm, #headerProjects{
 	position: relative;
 	width:960px;
 	
 	
 }
-#ulHeaderadm{
+#ulHeaderadm, #ulHeaderProjects {
 	position: relative;
 	border: solid 2px #66ccff;
 }
   
 
 
-#ulHeaderadm li{
+#ulHeaderadm li, #ulHeaderProjects li{
 	margin-right: 100px;
 }
 #contentAdm{
@@ -258,6 +248,8 @@ a:visited{
 }
  
 .myTabs{
+	position: relative;
+	width: 960px;
 	background-color:#66ccff;
 	color:#fff;
 	padding: 5px 2px;
@@ -272,6 +264,61 @@ color: #fff;
 	background-color: #FFF;
 	color:#000033;
 }	
+#new{
+	position: relative;
+	width: 400px;
+	padding: 5px;
+	margin-left: 500px;
+	background-color:#66ccff; 
+	border: solid 1px #66ccff; 
+}
+#new form{
+	position: relative;
+	width: 400px;
+	border-top: solid 2px #fff;
+	border-bottom: solid 2px #fff;
 
+}
+#new form p {
+	color:#fff;
 	
+	padding-left: 0px;
+	margin-left: 0px;
+
+}
+.headerProjectnew{
+	margin-left: 120px;
 	
+}
+.close{
+	margin-left: 350px;
+	background-color: #fff;
+	font-size: 20pt;
+	padding: 0px 10px;
+
+}
+.close:hover{
+	background-color:#66cc33;
+	color:#fff;
+}
+#addButton{
+	border-top: solid 2px #fff;
+	width:200px;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+input [type=radio] + img {
+	cursor:pointer;
+	border: solid 4px #66cc33;
+}
+
+input [type=radio]:checked + img {
+	border: solid 4px #66cc33;
+}
+#addButton:hover{
+	border: solid 2px #000033;
+	background-color: #fff;
+	color:#000033;
+
+}

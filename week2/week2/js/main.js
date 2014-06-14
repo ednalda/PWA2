@@ -57,6 +57,33 @@
 		})
 	}
 	
+
+	/*  Add Modal */
+
+	$('.modalClick').on('click', function(event){
+		event.preventDefault();
+		$('#new')
+		.fadeIn()
+		.find('#add')
+		.fadeIn();
+
+	});
+	$('.close').on('click',function(event){
+		event.preventDefault();
+		$('#new')
+			.fadeOut()
+			.find('#add')
+			.fadeOut();
+	});
+
+	$('.status').mouseover(function(){
+		$("img").fadeOut(1000);
+
+	});
+
+	$('.status').mouseout(function(){
+		$("img").fadeIn(1000);
+	});
 	/*	
 	==================================== END EVENTS 
 	===============================================
