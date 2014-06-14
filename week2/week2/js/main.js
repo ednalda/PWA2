@@ -42,12 +42,19 @@
 	===============================================
 	======================================== EVENTS	
 	*/
-	$('ul.tabs')each(function)(){
+	
+	$('ul.tabs').each(function)(){
 		var $active, $content, $links = $(this).find('a');
-		$active = $($links.filter('[href='location.hash+'"]')[0] || $links [0]);
+		$active = $($links.filter('[href="'location.hash+'"]')[0] || $links [0]);
 		$active.addClass('active');
 		$content =$($active(0).hash);
-		$links.not($active)
+		$links.not($active).each(function(){
+			$(this.hash).hide();
+		});
+		$(this).on('click','a', function(e){
+			$active.removeClass('active');
+			$content.hide();
+		})
 	}
 	
 	/*	
